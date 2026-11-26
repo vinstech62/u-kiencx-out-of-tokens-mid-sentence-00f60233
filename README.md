@@ -14,7 +14,7 @@ The funniest one-line error message an AI agent shows when it runs out of tokens
 python3 main.py
 ```
 
-It writes the line to `/output/entry.txt` (exactly one line, 109 characters).
+It writes the line to `/output/entry.txt` (exactly one line, 109 characters). The program checks its own output first — one line, at most 140 characters — and refuses to write a malformed entry.
 
 ---
 
